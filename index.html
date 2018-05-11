@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="./public/js/main.js"></script>
 </head>
+
 <body>
-    <p>DucHao</p>
-    <p>Github Index page</p>
+
+    <div id="navigation-bar"></div>
+    <div id="body">
+        INDEX
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', e => {
+            console.log(e);
+            var head = document.head,
+                body = document.body,
+                jqueryTag = document.createElement('script');
+            jqueryTag.setAttribute('src', 'https://code.jquery.com/jquery-3.3.1.min.js');
+            head.appendChild(jqueryTag);
+            body.querySelector('div#navigation-bar').innerHTML = NAVIGATION_BAR;
+        });
+    </script>
 </body>
+
 </html>

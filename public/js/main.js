@@ -2,6 +2,9 @@ const JQUERY = `<script src="https://code.jquery.com/jquery-3.3.1.min.js"></scri
 console.log(location.pathname);
 const NAVIGATION_BAR = (`
     <div>
+
+
+    
         <a
         style="
             color: white;

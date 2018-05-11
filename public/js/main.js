@@ -38,5 +38,14 @@ const NAVIGATION_BAR = (`
             text-decoration:none;
         "
         href="./page_4.html">page_4</a>
+        <a
+        style="
+            color: white;
+            padding: 20px;
+            display: inline-block;
+            background-color: brown;
+            text-decoration:none;
+        "
+        href="./page_5.html">page_5</a>
     </div>
 `);

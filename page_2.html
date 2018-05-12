@@ -11,17 +11,6 @@
     <div id="body">
         PAGE 2
     </div>
-    <script>
-        document.addEventListener('DOMContentLoaded', e => {
-            console.log(e);
-            var head = document.head,
-                body = document.body,
-                jqueryTag = document.createElement('script');
-            jqueryTag.setAttribute('src', 'https://code.jquery.com/jquery-3.3.1.min.js');
-            head.appendChild(jqueryTag);
-            body.querySelector('div#navigation-bar').innerHTML = NAVIGATION_BAR;
-        });
-    </script>
 </body>
 
 </html>
